@@ -1,0 +1,61 @@
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  background-image: url(bakerybg.jpeg);
+  width: 100%;
+  font-family: cursive;
+  -webkit-text-fill-color: rgb(62, 43, 14);
+  text-decoration: underline rgb(62, 43, 14);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 16px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    -webkit-text-fill-color: rgb(62, 43, 14);
+    width: 100%;
+    background-image: url(bakerybg.jpeg);
+}
+
+.socials{
+  font-family: cursive;
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10%;
+
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
