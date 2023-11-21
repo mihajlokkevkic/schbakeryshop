@@ -1,0 +1,56 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: cursive;
+}
+.logo2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: cursive  ;
+}
+.logo2 img{
+    border: 5px solid rgb(72, 38, 13);
+    border-radius: 50%;
+}
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    -webkit-text-fill-color: rgb(71, 48, 15);
+}
+.navbar{
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(199, 199, 182, 0.238);
+    height: 10%;
+}
+.navbar h1{
+    width: 0%;
+}
+li{
+    margin-left: 30px;
+    list-style: none;
+    font-size: x-large;
+    margin-right: 30px;
+}
+ul{
+    display: flex;
+}
+.nav_logo{
+    width: 200px;
+}
+.nav_link{
+    color: black;
+    text-decoration: none;
+}
+.whole{
+    background-image: linear-gradient(beige,rgb(192, 126, 80));
+}
+li:hover{
+    text-decoration: underline;
+}
