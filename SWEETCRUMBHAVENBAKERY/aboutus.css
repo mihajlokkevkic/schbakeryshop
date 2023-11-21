@@ -1,0 +1,78 @@
+.headtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    -webkit-text-fill-color: rgb(66, 38, 18);
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 10px solid rgb(66, 38, 18);
+    background-image: linear-gradient(beige, rgb(251, 218, 223));
+}
+.about p{
+width: 16%;
+border: 10px solid rgb(66, 38, 18);
+height: 40%;
+font-family: cursive;
+-webkit-text-fill-color: rgb(70, 48, 33);
+border-radius: 0%;
+background-image: url(bakerybg.jpeg);
+}
+.about img{
+    border: 10px solid rgb(66, 38, 18);
+    border-radius: 0%;
+    margin: 10%;
+    background-image: url(bakerybg.jpeg);
+}
+.history{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 10px solid rgb(66, 38, 18);
+    background-image: linear-gradient(beige, rgb(218, 229, 251));
+}
+.history p{
+width: 20%;
+border: 10px solid rgb(66, 38, 18);
+height: 40%;
+font-family: cursive;
+-webkit-text-fill-color: rgb(70, 48, 33);
+border-radius: 0%;
+background-image: url(bakerybg.jpeg);
+}
+.history img{
+    border: 10px solid rgb(66, 38, 18);
+    border-radius: 0%;
+    margin: 10%;
+    background-image: url(bakerybg.jpeg);
+}
+.dev{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 10px solid rgb(66, 38, 18);
+    background-image: linear-gradient(beige, rgb(255, 247, 161));
+}
+.dev p{
+width: 20%;
+border: 10px solid rgb(66, 38, 18);
+height: 40%;
+font-family: cursive;
+-webkit-text-fill-color: rgb(70, 48, 33);
+border-radius: 0%;
+background-image: url(bakerybg.jpeg);
+}
+.dev img{
+    border: 10px solid rgb(66, 38, 18);
+    border-radius: 0%;
+    margin: 10%;
+    background-image:  url(bakerybg.jpeg);
+}
